@@ -5199,3 +5199,8 @@ class Particle {
     endShape(CLOSE);
   }
 }
+
+// ユーザーがクリックしたら、オーディオを開始する許可を得る
+function mousePressed() {
+  userStartAudio();
+}
